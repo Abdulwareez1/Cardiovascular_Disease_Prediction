@@ -1,0 +1,277 @@
+/* ===============================
+   GENERAL STYLING
+================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#f2f6fc;
+
+    padding:40px;
+
+}
+
+/* ===============================
+   CONTAINER
+================================== */
+
+.container{
+
+    width:900px;
+
+    margin:auto;
+
+    background:white;
+
+    border-radius:15px;
+
+    box-shadow:0px 10px 25px rgba(0,0,0,.15);
+
+    overflow:hidden;
+
+}
+
+/* ===============================
+   HEADER
+================================== */
+
+.header{
+
+    background:#c62828;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.header h1{
+
+    font-size:34px;
+
+    margin-bottom:10px;
+
+}
+
+.header p{
+
+    font-size:18px;
+
+}
+
+/* ===============================
+   FORM
+================================== */
+
+form{
+
+    padding:30px;
+
+}
+
+.section{
+
+    margin-bottom:35px;
+
+}
+
+.section h2{
+
+    color:#c62828;
+
+    margin-bottom:20px;
+
+    border-bottom:2px solid #ddd;
+
+    padding-bottom:10px;
+
+}
+
+/* ===============================
+   INPUT GROUP
+================================== */
+
+.input-group{
+
+    margin-bottom:20px;
+
+}
+
+.input-group label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+    color:#333;
+
+}
+
+input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+}
+
+select{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+}
+
+input:focus,
+select:focus{
+
+    outline:none;
+
+    border:2px solid #c62828;
+
+}
+
+/* ===============================
+   BUTTON
+================================== */
+
+button{
+
+    width:100%;
+
+    background:#c62828;
+
+    color:white;
+
+    border:none;
+
+    padding:16px;
+
+    font-size:20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#8e0000;
+
+}
+
+/* ===============================
+   RESULT
+================================== */
+
+.result{
+
+    margin:30px;
+
+}
+
+.success{
+
+    background:#d4edda;
+
+    border-left:6px solid green;
+
+    padding:20px;
+
+    border-radius:8px;
+
+}
+
+.success h2{
+
+    color:green;
+
+}
+
+.success p{
+
+    margin-top:10px;
+
+}
+
+.danger{
+
+    background:#f8d7da;
+
+    border-left:6px solid red;
+
+    padding:20px;
+
+    border-radius:8px;
+
+}
+
+.danger h2{
+
+    color:red;
+
+}
+
+.danger p{
+
+    margin-top:10px;
+
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+================================== */
+
+@media(max-width:900px){
+
+.container{
+
+    width:95%;
+
+}
+
+body{
+
+    padding:15px;
+
+}
+
+.header h1{
+
+    font-size:28px;
+
+}
+
+button{
+
+    font-size:18px;
+
+}
+
+}
